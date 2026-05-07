@@ -1,6 +1,6 @@
 cask "watson-menu-bar" do
-  version "1.1"
-  sha256 "b6bef60096db4d270318f5de25edee0213980f37380370c708827349821948be"
+  version "1.2"
+  sha256 "a31c3b69daf20397184a55228b96cdc1a80de15d074fc7659c6d3830bdc9ea85"
 
   url "https://github.com/Michitime/watson-menu-bar-item/releases/download/#{version}/WatsonMenuBar-#{version}.zip"
   name "WatsonMenuBar"
