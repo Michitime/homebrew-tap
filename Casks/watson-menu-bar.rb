@@ -1,6 +1,6 @@
 cask "watson-menu-bar" do
-  version "1.5"
-  sha256 "dea6178a9ff922ac2d60ad05b54134af7dea37a5bef94b9920fee070599f37f5"
+  version "2.0"
+  sha256 "0efdd38bd53ac92026ccd148a61fbc7d8737b1ec1d69e9e1276371958e789017"
 
   url "https://github.com/Michitime/watson-menu-bar-item/releases/download/#{version}/WatsonMenuBar-#{version}.zip"
   name "WatsonMenuBar"
@@ -8,7 +8,7 @@ cask "watson-menu-bar" do
   homepage "https://github.com/Michitime/watson-menu-bar-item"
 
   depends_on formula: "watson"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :sequoia
 
   app "WatsonMenuBar.app"
 
